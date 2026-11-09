@@ -6,9 +6,6 @@ import {
   ArrowRight, 
   Search, 
   User, 
-  Instagram, 
-  Twitter, 
-  Facebook, 
   ShieldCheck, 
   Truck, 
   RotateCcw,
@@ -403,10 +400,10 @@ export default function App() {
         </div>
         <div className="max-w-7xl mx-auto px-6 md:px-12 border-t border-black/5 pt-8 flex flex-col md:flex-row justify-between items-center text-[10px] text-gray-400 tracking-widest uppercase">
           <p>© 2026 ATELIER VERA. ALL RIGHTS RESERVED.</p>
-          <div className="flex space-x-6 mt-4 md:mt-0">
-            <Instagram className="w-4 h-4 cursor-pointer hover:text-black" />
-            <Twitter className="w-4 h-4 cursor-pointer hover:text-black" />
-            <Facebook className="w-4 h-4 cursor-pointer hover:text-black" />
+          <div className="flex space-x-6 mt-4 md:mt-0 text-xs tracking-widest">
+            <a href="#" className="hover:text-black">IG</a>
+            <a href="#" className="hover:text-black">TW</a>
+            <a href="#" className="hover:text-black">FB</a>
           </div>
         </div>
       </footer>
