@@ -4,20 +4,16 @@ import {
   Menu, 
   X, 
   ArrowRight, 
-  ChevronRight, 
   Search, 
   User, 
-  Heart, 
   Instagram, 
   Twitter, 
   Facebook, 
-  Globe, 
   ShieldCheck, 
   Truck, 
   RotateCcw,
   Plus,
-  Minus,
-  Check
+  Minus
 } from 'lucide-react';
 
 // Sample Product Data
